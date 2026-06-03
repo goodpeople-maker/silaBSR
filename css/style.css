@@ -569,3 +569,45 @@ legend{
     border: 5px solid beige;
 }
 
+.data-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    min-width: 600px;
+}
+
+.data-table caption{
+    text-align: center;
+    font-size: 0.85rem;
+    color: gray;
+    margin-bottom: 15px;  
+}
+
+.data-table th,
+.data-table td{
+    border-bottom: 2px solid gray;
+    padding: 10px;
+    text-align: left;
+}
+
+.data-table thead th{
+    background-color: #93c5fd;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.data-table td{
+    color: #64748b;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.data-table tbody tr:nth-child(even){
+    background-color: rgba(37, 99, 235, 0.15); 
+}
+
+.data-table tbody tr:hover{
+    background-color: tomato;
+}
