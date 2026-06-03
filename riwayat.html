@@ -1,44 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistem Informasi Layanan Akademik</title>
-    <link rel = "stylesheet" href = "css/style.css">
-
+    <title>Riwayat Pengajuan — SILA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <!--Header -->
-    <header class = "container">
-        <div class = "navbar-inner">
-        <a href = "index-M2.html" class="logo">🎓SILA📑</a>
-        <p class="subjudul"> Sistem Informasi Layanan Akademik</p> 
-            <nav> 
-            <!-- Link --> 
-            <a href="index-M2.html" >Beranda</a> | 
-            <a href="layanan.html" >Ajukan Layanan</a> | 
-            <a href="riwayat.html" class = "active">Riwayat</a> 
+
+    <!-- HEADER & NAVIGASI -->
+    <header class="navbar">
+        <div class="container navbar-inner">
+            <a href="index.html" class="logo">🎓 SILA</a>
+            <input type="checkbox" id="navToggle" class="nav-toggle">
+            <label for="navToggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="layanan.html">Ajukan Layanan</a></li>
+                    <li><a href="riwayat.html" class="active">Riwayat</a></li>
+                </ul>
             </nav>
         </div>
- 
     </header>
-        <hr> <!-- Awal Main -->
-        
-        
 
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1>Riwayat Pengajuan</h1>
+                <p class="section-desc">Daftar semua pengajuan layanan akademik yang telah Anda buat.</p>
+                <p><em>Tabel riwayat akan tersedia pada tahap berikutnya.</em></p>
 
-        
-        <hr> <!-- Akhir Main -->
-         <!-- Daftar Layanan --> 
-        <section> 
-            <h2>Riwayat Pengajuan</h2> 
-            <p><i>📅Coming Soon: forum akan tersedia secepatnya</i></p> 
-            <a href="index-M2.html"> 🔙Kembali ke Beranda</a> 
+                
+            </div>
         </section>
-        <hr> 
-     <footer> 
-        <p>&copy; 2026 SILA — Dibuat untuk tugas Pemrograman Web</p> 
-    </footer> 
-     
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div>
+                <strong>🎓 SILA</strong>
+                <p>Platform digital untuk pengajuan layanan akademik mahasiswa.</p>
+            </div>
+            <div class="footer-nav">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="layanan.html">Ajukan Layanan</a></li>
+                    <li><a href="riwayat.html">Riwayat</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 SILA — Dibuat untuk tugas Pemrograman Web</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>

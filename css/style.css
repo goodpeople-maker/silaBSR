@@ -341,12 +341,6 @@ h3 {
    MEDIA QUERY & RESPONSIF — SILA
    ================================ */
 
-/* --------------------------------
-   Animasi CSS (@keyframes)
-   Mendefinisikan gerakan bernama 'fadeIn':
-   - from: posisi awal (tersembunyi, geser ke bawah)
-   - to: posisi akhir (terlihat, posisi normal)
-   -------------------------------- */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -368,16 +362,6 @@ h3 {
     animation: fadeIn 0.6s ease;
 }
 
-
-
-/* --------------------------------
-   Hamburger Menu Animasi
-   Saat checkbox dicentang, 3 garis hamburger
-   berubah menjadi tanda 'X' (close):
-   - Garis ke-1: putar 45° ke bawah
-   - Garis ke-2: hilang (opacity 0)
-   - Garis ke-3: putar -45° ke atas
-   -------------------------------- */
 
 .nav-toggle {
     display: none;
@@ -417,12 +401,6 @@ h3 {
     transform: translateY(-8px) rotate(-45deg);
 }
 
-/* --------------------------------
-   Responsive: Tablet & Mobile (<= 768px)
-   Semua grid/flex berubah ke 1 kolom/baris
-   agar konten tidak terlalu sempit di layar kecil.
-   -------------------------------- */
-   
 /* Tablet & Mobile */
 @media (max-width: 768px) {
     .navbar-inner {
@@ -498,12 +476,7 @@ h3 {
     }
 }
 
-/* --------------------------------
-   Responsive: Layar Sangat Kecil (<= 480px)
-   Untuk smartphone kecil:
-   - Judul lebih kecil lagi
-   - Tombol lebar penuh (100%)
-   -------------------------------- */
+
 /* Small Mobile */
 @media (max-width: 480px) {
     .hero h1 {
@@ -595,3 +568,4 @@ legend{
 .form-group textarea:focus{
     border: 5px solid beige;
 }
+
